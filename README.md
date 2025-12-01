@@ -50,6 +50,7 @@ npm run start:dev
 
 # produção
 npm run start:prod
+
 # testes unitários
 npm run test
 
@@ -68,8 +69,9 @@ TypeOrmModule.forRoot({
   autoLoadEntities: true,
   synchronize: true,
 });
+```
 
-👩‍💻 Sobre Mim
+##👩‍💻 Sobre Mim
 
 Tayene Ramires — Desenvolvedora Web em formação
 
@@ -83,7 +85,7 @@ Tayene Ramires — Desenvolvedora Web em formação
 
 🌐 Minhas Redes
 
-💼 LinkedIn: https://www.linkedin.com/in/tayene-narriha/
+💼 LinkedIn: https://www.linkedin.com/in/tayeneramires/
 
 🐙 GitHub: https://github.com/TayeneRamires
 
