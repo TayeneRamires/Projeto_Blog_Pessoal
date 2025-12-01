@@ -71,7 +71,7 @@ TypeOrmModule.forRoot({
 });
 ```
 
-##👩‍💻 Sobre Mim
+##  👩‍💻 Sobre Mim
 
 Tayene Ramires — Desenvolvedora Web em formação
 
