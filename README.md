@@ -71,24 +71,8 @@ TypeOrmModule.forRoot({
 });
 ```
 
-##👩‍💻 Sobre Mim
-
-Tayene Ramires — Desenvolvedora Web em formação
-
-🎓 Graduanda em Sistemas de Informação – FIT Impacta
-
-🚀 Aluna do Bootcamp Full-Stack JavaScript – Generation Brasil
-
-💼 Experiência em operações financeiras, processos bancários e conciliação
-
-🐱 Apaixonada por tecnologia e programação
-
-🌐 Minhas Redes
-
-💼 LinkedIn: https://www.linkedin.com/in/tayeneramires/
-
-🐙 GitHub: https://github.com/TayeneRamires
-
-📧 Email: tayene000@gmail.com
-
-📱 WhatsApp: (11) 93228-0610
+### 💬 Sobre mim
+- 👩‍💻 Tayene Ramires 
+- 🎓 Graduanda em Sistemas de Informação (FIT)
+- 📍 Estudante da Generation Brasil — Full Stack JavaScript
+- 💡 Em transição da área financeira para a tecnologia, apaixonada por lógica, dados e desenvolvimento de software.

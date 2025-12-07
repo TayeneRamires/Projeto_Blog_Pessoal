@@ -2,26 +2,26 @@ import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Postagem } from './postagem/entities/postagem.entity';
 import { PostagemModule } from './postagem/postagem.module';
+import { Tema } from './temas/entities/tema.entity';
+import { TemaModule } from './tema.module';
 
 // Decorator - Etiqueta de Metadados
 @Module({
-  imports: [ // Configurando o TyperORM
-  TypeOrmModule.forRoot({
-  type: 'mysql',
-  host: 'localhost',
-  port: 3306,
-  username:'root',
-  password: 'root',
-  database: 'db_blogpessoal',
-  entities: [Postagem],
-  synchronize: true,
-
-  }),
-  PostagemModule
-],
+  imports: [  // Configurando o TypeORM
+    TypeOrmModule.forRoot({
+      type: 'mysql',
+      host: 'localhost',
+      port: 3306,
+      username: 'root',
+      password: 'root',
+      database: 'db_blogpessoal',
+      entities: [Postagem, Tema],
+      synchronize: true,
+    }),
+    PostagemModule,
+    TemaModule
+  ],
   controllers: [],
   providers: [],
 })
-export class AppModule {}
-
-
+export class AppModule { }

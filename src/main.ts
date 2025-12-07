@@ -5,17 +5,17 @@ import { AppModule } from './app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
-  //Ajustando o fuso horário do BD
-  process.env.TZ = '-03:00'
+  // Ajustando o Fuso Horário do BD
+  process.env.TZ = '-03:00';
 
-  //Aplicando os recursos de validação
-  app.useGlobalPipes(new ValidationPipe ());
+  // Aplicando os recursos de validação
+  app.useGlobalPipes(new ValidationPipe());
 
-  //Habilitando o CORS do projeto
+  // Habilitando o CORS do projeto
   app.enableCors();
 
-  //Indico qual porta o projeto está sendo executado
+  // Indico qual porta o projeto está sendo executado
   await app.listen(4000);
-
 }
+
 bootstrap();
