@@ -4,7 +4,8 @@ import { Postagem } from "./entities/postagem.entity";
 import { PostagemController } from "./controller/postagem.controller";
 import { PostagemService } from "./services/postagem.service";
 import { TemaService } from "../temas/services/tema.service";
-import { TemaModule } from "../tema.module";
+import { TemaModule } from "../temas/tema.module";
+
 
 
 @Module({

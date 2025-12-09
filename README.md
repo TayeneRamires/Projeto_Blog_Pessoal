@@ -62,9 +62,9 @@ npm run test:cov
 TypeOrmModule.forRoot({
   type: 'mysql',
   host: 'localhost',
-  port: 3306,
-  username: 'root',
-  password: 'root',
+  port: ,
+  username: '',
+  password: '',
   database: 'db_blogpessoal',
   autoLoadEntities: true,
   synchronize: true,
