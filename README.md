@@ -59,17 +59,6 @@ npm run test:e2e
 
 # cobertura
 npm run test:cov
-TypeOrmModule.forRoot({
-  type: 'mysql',
-  host: 'localhost',
-  port: ,
-  username: '',
-  password: '',
-  database: 'db_blogpessoal',
-  autoLoadEntities: true,
-  synchronize: true,
-});
-```
 
 ---
 
