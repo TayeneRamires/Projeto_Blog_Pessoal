@@ -1,10 +1,6 @@
 # 🌐 Blog Pessoal – API com NestJS
 
 <p align="center">
-  <img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" />
-</p>
-
-<p align="center">
   API desenvolvida com <strong>NestJS</strong>, <strong>TypeScript</strong> e <strong>MySQL</strong> como parte dos estudos do Bootcamp Full-Stack da Generation Brasil.
 </p>
 
