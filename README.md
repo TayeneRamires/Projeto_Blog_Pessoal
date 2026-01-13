@@ -60,12 +60,12 @@ npm run test:e2e
 # cobertura
 npm run test:cov
 
+
+```
 ---
 
-### 💬 Sobre mim
-- 👩‍💻 Tayene Ramires 
-- 🎓 Graduanda em Sistemas de Informação (FIT)
-- 📍 Estudante da Generation Brasil — Full Stack JavaScript
-- 💡 Em transição da área financeira para a tecnologia, apaixonada por lógica, dados e desenvolvimento de software.
-
+## 👩‍💻 Autora
+**Tayene Ramires**  
+Estudante de Sistemas de Informação | Full Stack em formação  
+JavaScript • TypeScript • Node.js • NestJS • HTML • CSS • SQL
 
